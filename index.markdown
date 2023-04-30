@@ -8,6 +8,8 @@ title: Games
 
 Signal Creek is a Narrative RPG about three people trapped in a mall that shapes itself to reflect how they remember it. Explore each character's identity, develop their relationships, and resolve their past traumas in order to help them escape.
 
+<iframe frameborder="0" src="https://itch.io/embed/1835348" width="552" height="167"><a href="https://crowswalk.itch.io/signal-creek">Signal Creek by crowswalk, adomaniia, Esra Slovak, ernabalayan, frogf, aw225</a></iframe>
+
 # Vanishing Point
 ### Roles: Technical Artist, Environment Artist
 (insert image)
