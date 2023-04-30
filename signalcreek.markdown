@@ -27,3 +27,8 @@ For narrative systems, weʼre using Ink by Inklestudios.
 As Technical Narrative Designer and programmer, I've bridged our ink scripts and Godot backend functionality, allowing all game writers to have control over the way the game works.
 
 [Take a look at the repository here.](https://github.com/crowswalk/signal_creek)
+
+# Game Writing
+As a team, we've emphasized a collaborative iteration process for the writing in Signal Creek. Everyone on the team has written first drafts of conversations, and passed them off to other team members for several iterations.
+
+The biggest file that I structured is the Rina npc, which is a complex character that changes state throughout the course of the demo, and has the most dependencies in the game.
