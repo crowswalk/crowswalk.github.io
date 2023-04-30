@@ -9,9 +9,7 @@ Hi! This is an overview of the year long Capstone Project Iʼm currently working
 
 Signal Creek is a Narrative RPG about three people trapped in a mall that shapes itself to reflect how they remember it. Explore each character's identity, develop their relationships, and resolve their past traumas in order to help them escape.
 
-
-#Nour's Character Design
-
+# Nour's Character Design
 The Signal Creek team came up with our protagonistsʼ personalities and backstories as a group, drawing from our personal experiences. 
 
 ![Nour Character Design](images/art/characters_nourdesign.png)
@@ -21,8 +19,7 @@ I designed the appearance of Nour, using her backstory and considerations such a
 - What does styling her hair mean to her? 
 - What does she want to express with her clothing choices?
 
-#Technical Narrative Design
-
+# Technical Narrative Design
 Weʼre using Godot Engine (mono) which uses C# and GDScript 
 
 For narrative systems, weʼre using Ink by Inklestudios. 
