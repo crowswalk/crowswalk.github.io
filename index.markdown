@@ -2,9 +2,6 @@
 layout: page
 title: Games
 ---
-
-Hello and welcome to site :)
-
 # Signal Creek
 ### Roles: Producer, Game Artist, Technical Narrative Designer, Game Writer
 ![Signal Creek Cover Image](images/sc_thumbnail.png)
