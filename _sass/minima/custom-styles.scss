@@ -2,10 +2,11 @@
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Source+Serif+Pro&display=swap');
 
-h1, h2 {
+h1, h2, .site-title {
 
   font-family: 'Source Serif Pro', serif;
   margin-bottom: 5px;
+  
 }
 
 img {
