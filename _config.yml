@@ -21,7 +21,7 @@
 title: crowswalk
 email: mseavey12047@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  github site
+  This website’s code is locally grown by max. If there’s imperfections, that’s because it’s organic!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
