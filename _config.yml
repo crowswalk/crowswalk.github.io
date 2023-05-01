@@ -23,8 +23,8 @@ email: mseavey12047@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This website’s code is locally grown by max. If there’s imperfections, that’s because it’s organic!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: jekyllrb
+url: "http://crowswalk.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: crowswalk
 github_username:  crowswalk
 
 # Build settings
