@@ -22,6 +22,22 @@ img {
     margin: 0;
     margin-bottom: 1rem;
     column-gap: 8px;
-    column-count: 4;
+    column-count: 1;
     justify-content: center;
+}
+
+  @media screen and (min-width: $on-large) {
+    .gridbox {
+       column-count: 4;
+    }
+  }
+
+  @media screen and (min-width: $on-medium) {
+    .gridbox {
+       column-count: 3;
+    }
+  }
+
+.gridbox > img {
+  margin-bottom: $spacing-unit * .5;
 }
