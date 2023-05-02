@@ -20,8 +20,8 @@ img {
     line-height: 0.2rem;
     box-sizing: border-box;
     margin: 0;
-    margin-bottom: 1rem;
-    column-gap: 8px;
+    margin-bottom: $spacing-unit;
+    column-gap: $spacing-unit * .5;
     column-count: 1;
     justify-content: center;
 }
@@ -38,6 +38,6 @@ img {
     }
   }
 
-.gridbox > img {
-  margin-bottom: 8px;
+.gridbox > p > img {
+  margin-bottom: $spacing-unit * .5;
 }
