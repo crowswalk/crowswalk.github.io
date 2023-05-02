@@ -11,9 +11,25 @@ h1, h2, .site-title {
 }
 
 img {
-
   border-radius: 3px;
+}
 
+.button,
+.button:link,
+.button:visited {
+    font-size: 1.3rem;
+    width: max-content;
+    margin: .75rem .5rem .75rem 0;
+    padding: .3rem .75rem .3rem .75rem;
+    border-radius: 4px;
+    background-color: #C9C49C;
+    color: #2e2e2e;
+    text-decoration: none;
+}
+
+.button:hover,
+.button:active {
+    background-color: #ecebe5;
 }
 
 .gridbox {
