@@ -1,6 +1,10 @@
 ---
-layout: base
+layout: gallery
 title: Art
 ---
 
-hello body text is here
+![Signal Creek Cover Image](images/sc_thumbnail.png)
+![Signal Creek Cover Image](images/sc_thumbnail.png)
+![Signal Creek Cover Image](images/sc_thumbnail.png)
+![Signal Creek Cover Image](images/sc_thumbnail.png)
+![Signal Creek Cover Image](images/sc_thumbnail.png)
