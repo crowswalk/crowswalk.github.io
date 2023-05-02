@@ -1,5 +1,6 @@
 ---
 layout: base
+title: The Garbage Incident
 permalink: /garbageincident/
 ---
 
