@@ -26,15 +26,18 @@
 <script>
     let slideShow = document.getElementById("picmodal")
     let closeButton = document.getElementById("x")
-    let currentSlideshowArray = document.getElementsByClassName("gridbox").childNodes;
+    let currentSlideshowArray = document.getElementsByClassName("gridbox").firstChild.childNodes;
+
+    for (let i = 0; i < childNodes.length(); i++) {
+        childNodes[i].dataset.groupindex = i
+    }
 
 
     function openSlides(arrayName, arrayIndex) {
         slideShow.style.display = "flex"
         let focusedImg = document.getElementById("focusedImg")
         focusedImg.dataset.groupindex = arrayIndex
-        focusedImg.src = arrayName[arrayIndex]
-        currentSlideshowArray = arrayName
+        focusedImg.src = currentSlideshowArray[arrayIndex]
         closeButton.style.display = "block"
     }
 
