@@ -21,14 +21,14 @@ img {
     margin: .75rem .5rem .75rem 0;
     padding: .3rem .75rem .3rem .75rem;
     border-radius: 4px;
-    background-color: #C9C49C;
-    color: #2e2e2e;
+    background-color: $brand-color;
+    color: $text-color;
     text-decoration: none;
 }
 
 .button:hover,
 .button:active {
-    background-color: #ecebe5;
+    background-color: $brand-color-light;
 }
 
 .gridbox {
