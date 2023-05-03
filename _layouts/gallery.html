@@ -29,8 +29,8 @@
     let currentSlideshowArray = document.getElementsByClassName("gridbox").firstChild.childNodes;
 
     for (let i = 0; i < childNodes.length(); i++) {
-        childNodes[i].dataset.groupindex = i
-        focusedImg.onclick = `openSlides(${currentSlideshowArray}, ${i})`
+        //childNodes[i].dataset.groupindex = i
+        focusedImg.addEventListener('click', openSlides(currentSlideshowArray, i))
     }
 
 
