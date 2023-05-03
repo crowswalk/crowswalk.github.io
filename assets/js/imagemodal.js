@@ -1,14 +1,20 @@
-let slideShow = document.getElementById("picmodal")
-let closeButton = document.getElementById("x")
-let currentSlideshowArray = document.querySelector(".gridbox").childNodes;
+let slideShow = document.getElementById("picmodal");
+let closeButton = document.getElementById("x");
+let currentSlideshowArray;
 
-for (let i = 0; i < currentSlideshowArray.length; i++) {
-    //childNodes[i].dataset.groupindex = i
-    focusedImg.addEventListener('click', openSlides(currentSlideshowArray, i))
-        //dataset image url property should be child node's url attribute
-    currentSlideshowArray[i].dataset.imageurl = focusedImg.childNodes[0].src
-}
+document.querySelector('.gridbox').addEventListener('DOMNodeInserted', function ( event ) {
 
+
+    currentSlideshowArray = document.querySelector(".gridbox").childNodes;
+
+    for (let i = 0; i < currentSlideshowArray.length; i++) {
+        //childNodes[i].dataset.groupindex = i
+        focusedImg.addEventListener('click', openSlides(currentSlideshowArray, i))
+            //dataset image url property should be child node's url attribute
+        currentSlideshowArray[i].dataset.imageurl = focusedImg.childNodes[0].src
+    }
+
+})
 
 function openSlides(arrayName, arrayIndex) {
     slideShow.style.display = "flex"
