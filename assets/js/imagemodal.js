@@ -1,6 +1,6 @@
 let slideShow = document.getElementById("picmodal")
 let closeButton = document.getElementById("x")
-let currentSlideshowArray = document.getElementsByClassName("gridbox").childNodes;
+let currentSlideshowArray = document.querySelector(".gridbox").childNodes;
 
 for (let i = 0; i < currentSlideshowArray.length; i++) {
     //childNodes[i].dataset.groupindex = i
