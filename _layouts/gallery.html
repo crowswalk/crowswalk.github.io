@@ -1,22 +1,58 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="{{ page.lang | default: site.lang | default: " en " }}">
 
-  {%- include head.html -%}
+{%- include head.html -%}
 
-  <body>
+<body>
 
     {%- include header.html -%}
 
     <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <div class="gridbox">
-          {{ content }}
+        <img id="x" src="images/x.svg" alt="close" onclick="closeSlides()">
+        <div id="picmodal">
+            <img id="focusedImg" src="" onclick="nextSlide(1)">
         </div>
-      </div>
+        <div class="wrapper">
+            <div class="gridbox">
+                {{ content }}
+            </div>
+        </div>
     </main>
 
     {%- include footer.html -%}
 
-  </body>
+</body>
+
+<script>
+    let slideShow = document.getElementById("picmodal")
+    let closeButton = document.getElementById("x")
+    let currentSlideshowArray = document.getElementsByClassName("gridbox").childNodes;
+
+
+    function openSlides(arrayName, arrayIndex) {
+        slideShow.style.display = "flex"
+        let focusedImg = document.getElementById("focusedImg")
+        focusedImg.dataset.groupindex = arrayIndex
+        focusedImg.src = arrayName[arrayIndex]
+        currentSlideshowArray = arrayName
+        closeButton.style.display = "block"
+    }
+
+    function nextSlide(indexChange) {
+        let focusedImg = document.getElementById("focusedImg")
+        let newIndex = parseInt(focusedImg.dataset.groupindex)
+
+        newIndex += indexChange
+        focusedImg.dataset.groupindex = newIndex
+        console.log(focusedImg.dataset.groupindex)
+
+        focusedImg.src = currentSlideshowArray[newIndex % currentSlideshowArray.length]
+    }
+
+    function closeSlides() {
+        slideShow.style.display = "none"
+        closeButton.style.display = "none"
+    }
+</script>
 
 </html>

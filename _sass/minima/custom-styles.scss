@@ -1,17 +1,16 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Source+Serif+Pro&display=swap');
-
-h1, h2, .site-title {
-
-  font-family: 'Source Serif Pro', serif;
-  font-weight: bold;
-  margin-bottom: 2px;
-  
+h1,
+h2,
+.site-title {
+    font-family: 'Source Serif Pro', serif;
+    font-weight: bold;
+    margin-bottom: 2px;
 }
 
 img {
-  border-radius: 3px;
+    border-radius: 3px;
 }
 
 .button,
@@ -42,18 +41,45 @@ img {
     justify-content: center;
 }
 
-  @media screen and (min-width: $on-large) {
+@media screen and (min-width: $on-large) {
     .gridbox {
-       column-count: 4;
+        column-count: 4;
     }
-  }
+}
 
-  @media screen and (min-width: $on-medium) {
+@media screen and (min-width: $on-medium) {
     .gridbox {
-       column-count: 3;
+        column-count: 3;
     }
-  }
+}
 
-.gridbox > p > img {
-  margin-bottom: $spacing-unit * .5;
+.gridbox>p>img {
+    margin-bottom: $spacing-unit * .5;
+}
+
+#picmodal {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background-color: #2b2b2bcc;
+    justify-content: center;
+    align-items: center;
+}
+
+#focusedImg {
+    margin: auto;
+    width: 85%;
+    height: 85%;
+    object-fit: contain;
+}
+
+#x {
+    display: none;
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    width: 2rem;
+    z-index: 12;
 }
