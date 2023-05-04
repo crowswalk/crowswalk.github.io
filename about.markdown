@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-![Funny Crow Drawing](images/talkingguy.png)
+![Funny Crow Drawing](images/talkingguy.png){: .bird}
 
 Hello! My name is **Max**, but I go by **crowswalk** online. I'm a narrative game developer based in **New York City** and graduating from the **NYU Game Center** in May 2023 with a minor in **Web Programming and Applications**.
 

@@ -10,9 +10,9 @@ The software developer Brent Watters disappeared a decade ago, leaving his twelv
 
 Explore the mysteries of their family computer in Vanishing Point, a **puzzle-platformer** from COVE. Guide the virtual assistant Echo through platforming puzzles that **blend 2D and 3D space**. Together, Eloise and Echo may finally learn the secret behind Brent’s disappearance.
 
-### Technical Art
-![Vanishing Point Tech Art 1](images/vanishingpoint1.png)
-![Vanishing Point Tech Art 2](images/vanishingpoint2.png)
+# Technical Art
+![Vanishing Point Tech Art 1](images/vanishingpoint1.jpg)
+![Vanishing Point Tech Art 2](images/vanishingpoint2.jpg)
 
 Vanishing point is created in Unity. As Technical Artist, I created a screen-space shader for the game's 3D space in ShaderLab. My goal was to evoke the nostalgia that Eloise experiences when exploring these old files. The shader has a subtle gradient map effect, blue noise dithering, and wiggly outlines that look hand-drawn. It also complements the memphis style particles I created throughout the 3D space.
 
