@@ -8,11 +8,22 @@ h2,
     color: $accent-color;
     font-weight: bold;
     margin-bottom: 2px;
-
 }
 
 img {
     border-radius: 3px;
+}
+
+a,
+a:visited,
+.page-link,
+.page-link:visited,
+site-title:visited {
+    color: $accent-color;
+}
+
+.site-header {
+    border-top: 5px solid $accent-color;
 }
 
 .button,
