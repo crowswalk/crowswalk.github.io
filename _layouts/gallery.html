@@ -36,7 +36,7 @@
         //childNodes[i].dataset.groupindex = i
         focusedImg.addEventListener('click', openSlides(currentSlideshowArray, i))
             //dataset image url property should be child node's url attribute
-        currentSlideshowArray[i].dataset.imageurl = focusedImg.childNodes[0].src
+        currentSlideshowArray[i].dataset.imageurl = focusedImg.src
     }
 
     function openSlides(arrayName, arrayIndex) {
