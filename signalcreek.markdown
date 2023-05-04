@@ -2,8 +2,9 @@
 layout: base
 title: Signal Creek
 ---
-
-<iframe frameborder="0" src="https://itch.io/embed/1835348?bg_color=13141f&amp;fg_color=ffffff&amp;link_color=c8b8cd&amp;border_color=41424d" width="208" height="167"><a href="https://crowswalk.itch.io/signal-creek">Signal Creek by crowswalk, adomaniia, Esra Slovak, ernabalayan, frogf, aw225</a></iframe>
+# Signal Creek
+### Roles: Producer, Game Artist, Technical Narrative Designer, Game Writer
+![Signal Creek Cover Image](images/sc_thumbnail.png)
 
 Hi! This is an overview of the year long Capstone Project Iʼm currently working on at NYU Game Center. 
 
@@ -32,3 +33,5 @@ As Technical Narrative Designer and programmer, I've bridged our ink scripts and
 As a team, we've emphasized a collaborative iteration process for the writing in Signal Creek. Everyone on the team has written first drafts of conversations, and passed them off to other team members for several iterations.
 
 The biggest file that I structured is the Rina npc, which is a complex character that changes state throughout the course of the demo, and has the most dependencies in the game.
+
+<iframe frameborder="0" src="https://itch.io/embed/1835348?bg_color=13141f&amp;fg_color=ffffff&amp;link_color=c8b8cd&amp;border_color=41424d" width="208" height="167"><a href="https://crowswalk.itch.io/signal-creek">Signal Creek by crowswalk, adomaniia, Esra Slovak, ernabalayan, frogf, aw225</a></iframe>
