@@ -6,12 +6,12 @@
 <body>
 
     {%- include header.html -%}
-
+    <img id="x" src="images/x.svg" alt="close" onclick="closeSlides()">
+    <div id="picmodal">
+        <img id="focusedImg" src="">
+    </div>
     <main class="page-content" aria-label="Content">
-        <img id="x" src="images/x.svg" alt="close" onclick="closeSlides()">
-        <div id="picmodal">
-            <img id="focusedImg" src="" onclick="nextSlide(1)">
-        </div>
+
         <div class="wrapper">
             <div class="gridbox">
                 {{ content }}
@@ -39,13 +39,21 @@
         currentSlideshowArray[i].dataset.imageurl = currentSlideshowArray[i].src
     }
 
-    function openSlides(arrayIndex) {
+    function openSlides(imageUrl) {
         slideShow.style.display = "flex"
         let focusedImg = document.getElementById("focusedImg")
-        focusedImg.dataset.groupindex = arrayIndex
-        focusedImg.src = currentSlideshowArray[parseInt(arrayIndex)].dataset.imageurl
+            //focusedImg.dataset.groupindex = arrayIndex
+        focusedImg.src = imageUrl
         closeButton.style.display = "block"
     }
+
+    // function openSlides(arrayIndex) {
+    //     slideShow.style.display = "flex"
+    //     let focusedImg = document.getElementById("focusedImg")
+    //     focusedImg.dataset.groupindex = arrayIndex
+    //     focusedImg.src = currentSlideshowArray[parseInt(arrayIndex)].dataset.imageurl
+    //     closeButton.style.display = "block"
+    // }
 
     function nextSlide(indexChange) {
         let focusedImg = document.getElementById("focusedImg")
