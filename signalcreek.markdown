@@ -6,7 +6,7 @@ title: Signal Creek
 ### Roles: Producer, Game Artist, Technical Narrative Designer, Game Writer
 ![Signal Creek Cover Image](images/signal_creek_heroimage.png)
 
-Hi! This is an overview of the year long Capstone Project Iʼm currently working on at NYU Game Center. 
+Hi! This is an overview of the demo for Signal Creek, the debut project from snacktime games.
 
 Signal Creek is a Narrative RPG about three people trapped in a mall that shapes itself to reflect how they remember it. Explore each character's identity, develop their relationships, and resolve their past traumas in order to help them escape.
 
