@@ -4,7 +4,7 @@ title: Games
 ---
 # Signal Creek
 ### Roles: Producer, Game Artist, Technical Narrative Designer, Game Writer
-![Signal Creek Cover Image](images/sc_thumbnail.png)
+![Signal Creek Cover Image](images/signal_creek_heroimage.png)
 
 Signal Creek is a **Narrative RPG** about three people trapped in a mall that shapes itself to reflect how they remember it. Explore each character's identity, develop their relationships, and resolve their past traumas in order to help them escape.
 
