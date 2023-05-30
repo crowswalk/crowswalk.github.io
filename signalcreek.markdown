@@ -4,7 +4,7 @@ title: Signal Creek
 ---
 # Signal Creek
 ### Roles: Producer, Game Artist, Technical Narrative Designer, Game Writer
-![Signal Creek Cover Image](images/sc_thumbnail.png)
+![Signal Creek Cover Image](images/signal_creek_heroimage.png)
 
 Hi! This is an overview of the year long Capstone Project Iʼm currently working on at NYU Game Center. 
 
