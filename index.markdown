@@ -8,7 +8,7 @@ title: Games
 
 Signal Creek is a **Narrative RPG** about three people trapped in a mall that shapes itself to reflect how they remember it. Explore each character's identity, develop their relationships, and resolve their past traumas in order to help them escape.
 
-[Read More](signalcreek.html){: .button}
+[Read More](http://snacktimegamestudio.com/signalcreek){: .button}
 
 # Vanishing Point
 ### Roles: Technical Artist, Environment Artist
