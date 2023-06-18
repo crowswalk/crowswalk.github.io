@@ -6,7 +6,7 @@ title: Games
 ### Roles: Producer, Game Artist, Technical Narrative Designer, Game Writer
 ![Signal Creek Cover Image](images/signal_creek_heroimage.png)
 
-Signal Creek is a **Narrative RPG** about three people trapped in a mall that shapes itself to reflect how they remember it. Explore each character's identity, develop their relationships, and resolve their past traumas in order to help them escape.
+Nour, a 22 year-old college student, sneaks into the soon-to-be demolished Signal Creek mall, but quickly finds herself trapped with her little brother’s best friend, Nick, and her professional mentor, Ms. Suwan. In order to escape the dreamlike reality of the mall, Nour must guide everyone—including herself— through a journey of reconciliation.
 
 [Read More](http://snacktimegamestudio.com/signalcreek){: .button}
 
