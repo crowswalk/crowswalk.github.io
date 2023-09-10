@@ -3,10 +3,10 @@ layout: base
 title: Games
 ---
 # Signal Creek
-### Roles: Producer, Game Artist, Technical Narrative Designer, Game Writer
+### Roles: Project Manager, Game Artist, Programmer, Game Writer
 ![Signal Creek Cover Image](images/signal_creek_heroimage.png)
 
-Nour, a 22 year-old college student, sneaks into the soon-to-be demolished Signal Creek mall, but quickly finds herself trapped with her little brother’s best friend, Nick, and her professional mentor, Ms. Suwan. In order to escape the dreamlike reality of the mall, Nour must guide everyone—including herself— through a journey of reconciliation.
+Nour, a 22 year-old college student, sneaks into the soon-to-be demolished Signal Creek mall. She quickly finds herself trapped with her little brother’s best friend, Nick, and her professional mentor, Ms. Suwan. In order to escape the dreamlike reality of the mall, Nour must guide everyone — including herself — through a journey of reconciliation.
 
 [Read More](http://snacktimegamestudio.com/signalcreek){: .button}
 
@@ -21,7 +21,7 @@ Explore the mysteries of their family computer in Vanishing Point, a **puzzle-pl
 [Read More](vanishingpoint.html){: .button}
 
 # The Penne Dreadful Murder
-### Roles: Project Manager, Narrative UX Designer, Background Illustrator
+### Roles: Project Manager, UI/UX, Background Illustrator
 ![Penne Dreadful Cover Image](images/penne_thumbnail.png)
 
 Detective Pennelope Scout must solve a murder case in the mysterious, cult-like town of Timsville. Uncover the town's secrets in this **point-and-click murder mystery**!
@@ -29,7 +29,7 @@ Detective Pennelope Scout must solve a murder case in the mysterious, cult-like 
 [Read More](pennedreadful.html){: .button}
 
 # The Garbage Incident
-### Roles: Narrative Designer, Game Writer, Game Artist
+### Roles: Narrative Designer, Programmer, Game Artist
 ![Garbage Incident Cover Image](images/garbageincident_thumbnail.png)
 
 You're Georgie, the diplomat of the Rat clan! Your job: find out who violated the Rat-Pigeon-Squirrel Weekly Garbage Treaty. The Pigeons claim their rightful share of garbage was stolen! Find the true Garbage Thief in this **choice-driven Twine game**.
