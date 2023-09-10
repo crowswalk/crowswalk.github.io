@@ -3,20 +3,20 @@ layout: base
 title: The Penne Dreadful Murder
 ---
 # The Penne Dreadful Murder
-### Roles: Project Manager, Narrative UX Designer, Background Illustrator
+### Roles: Project Management, UI/UX Design, Background Illustration
 ![Penne Dreadful Cover Image](images/penne_thumbnail.png)
 
 Detective Pennelope Scout must solve a murder case in the mysterious, cult-like town of Timsville, run by a man named Tim. Uncover the town's secrets in this point-and-click murder mystery! 
 
 This project was developed in 3 months with a team of 8 designers, for whom I was project manager.
 
-I designed the UI and Narrative UX of the game, by working with the programmer and other narrative designers on structuring the Journal interface in a way that joins mechanics and story.
+I designed the UI and Narrative UX of the game. In collaboration with the programmer and narrative designers, I structured the Journal interface in a way that joins gameplay with story.
 
 ![Penne Dreadful Case Report](images/penne_reportdialogue.png)
 
 ![Penne Dreadful Journal](images/penne_journal.png)
 
-I also drew all of the backgrounds, and helped the art team develop a unified vision.
+Asdirionally, I illustrated the game's backgrounds, and helped the rest of the art team develop a unified vision.
 
 ![Penne Dreadful Backgrounds](images/art/penne_backgrounds.png)
 
