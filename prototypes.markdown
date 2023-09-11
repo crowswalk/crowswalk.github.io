@@ -25,6 +25,15 @@ A quick prototype of a game menu interface made in vanilla HTML, CSS, and JavaSc
 
 <iframe frameborder="0" src="https://itch.io/embed/2257730?bg_color=000000&amp;fg_color=ffffff&amp;link_color=ffaf0c&amp;border_color=333333" width="208" height="167"><a href="https://crowswalk.itch.io/robin">Robin by crowswalk</a></iframe>
 
+## Pixel Perfect Drawing Application
+
+![Prototypes Cover Image](https://github.com/crowswalk/pixelapp/blob/main/images/thumb.jpg?raw=true)
+
+A pixel-art drawing program prototyped in p5, a Javascript framework for interactive visual experiences.
+The minimal interface is inspired by Aseprite and Flipnote Hatena. My intention is to design a UI that works well with the drawing workflow using an Apple Pencil on iPad.
+
+[Try it](https://crowswalk.github.io/pixelapp/){: .button}
+
 ## Prince Pendragon
 
 A text-only adaptation of a conversation from **Signal Creek** which features the Apple Prince.
