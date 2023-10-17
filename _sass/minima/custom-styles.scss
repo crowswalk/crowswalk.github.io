@@ -6,6 +6,22 @@
         font-family: 'Source Serif Pro', serif;
         color: $accent-color;
         margin-bottom: 0;
+        &:hover,
+        &:active {
+            text-decoration: none;
+            color: $accent-color-light;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+    
+    h1 a {
+        font-weight: bold;
+        &:hover,
+        &:active {
+            text-decoration: underline;
+            color: $accent-color-light;
+            transition: all 0.3s ease-in-out;
+        }
     }
     
     h2 {
@@ -51,16 +67,15 @@
         font-weight: bold;
         margin: 0px 20px;
         padding: 2px;
-    }
-    
-    .site-nav .page-link:not(:last-child) {
-        margin: 0px 20px;
-    }
-    
-    .site-nav .page-link:hover,
-    .site-nav .page-link:active {
-        color: $accent-color-light;
-        text-decoration: none;
+        &:hover,
+        &:active {
+            color: $accent-color-light;
+            text-decoration: none;
+            transition: all 0.3s ease-in-out;
+        }
+        &:not(:last-child) {
+            margin: 0px 20px;
+        }
     }
     
     .site-header {
@@ -78,11 +93,10 @@
         background-color: $accent-color;
         color: $body-color;
         text-decoration: none;
-    }
-    
-    .button:hover,
-    .button:active {
-        background-color: $accent-color-light;
+        &:hover,
+        &:active {
+            background-color: $accent-color-light;
+        }
     }
     
     .gridbox,
@@ -105,6 +119,14 @@
         margin: $spacing-unit * .5;
     }
     
+    .cover img {
+        transform: scale(1);
+        transition: all 0.3s ease-in-out;
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+    
     .artpage img {
         width: 100%;
         height: 250px;
@@ -120,14 +142,14 @@
     @media screen and (min-width: $on-large) {
         .gridbox,
         .image-gallery {
-            column-count: 4;
+            column-count: 3;
         }
     }
     
     @media screen and (min-width: $on-medium) {
         .gridbox,
         .image-gallery {
-            column-count: 3;
+            column-count: 2;
         }
         .portfolio {
             grid-template-columns: 1fr 1fr;
@@ -146,6 +168,7 @@
     //     justify-content: center;
     //     padding: 4px;
     // }
+    // GALLERY
     .box {
         flex-basis: 25%;
         width: 100%;
@@ -164,6 +187,7 @@
         }
     }
     
+    // LIGHTBOX
     #lightbox {
         width: 100%;
         height: 100%;

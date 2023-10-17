@@ -2,5 +2,5 @@
 $base-font-family: 'Source Sans Pro',
 sans-serif;
 $accent-color: #C9C49C;
-$accent-color-light:     lighten($lm-brand-color, 40%);
-$body-color: #2e2e2e;
+$accent-color-light: lighten($accent-color, 40%);
+$body-color: #222222;
