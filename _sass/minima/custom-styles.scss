@@ -2,12 +2,29 @@
     // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
     @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Source+Serif+Pro&display=swap');
     h1,
-    h2,
     .site-title {
         font-family: 'Source Serif Pro', serif;
         color: $accent-color;
-        font-weight: bold;
-        margin-bottom: 2px;
+        margin-bottom: 0;
+    }
+    
+    h2 {
+        margin-bottom: 0;
+    }
+    
+    .site-title {
+        text-align: center;
+    }
+    
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .trigger {
+        text-align: center;
+        padding: 0px;
+        margin: 0;
     }
     
     img {
@@ -26,6 +43,24 @@
     .site-title,
     .site-title:visited {
         color: $accent-color;
+    }
+    
+    .site-nav .page-link {
+        font-size: 1.5rem;
+        font-family: 'Source Serif Pro', serif;
+        font-weight: bold;
+        margin: 0px 20px;
+        padding: 2px;
+    }
+    
+    .site-nav .page-link:not(:last-child) {
+        margin: 0px 20px;
+    }
+    
+    .site-nav .page-link:hover,
+    .site-nav .page-link:active {
+        color: $accent-color-light;
+        text-decoration: none;
     }
     
     .site-header {
