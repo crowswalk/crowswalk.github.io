@@ -11,14 +11,6 @@ Nour, a 22 year-old college student, sneaks into the soon-to-be demolished Signa
 
 [Read More](http://snacktimegamestudio.com/signalcreek){: .button}
 
-# Assorted Prototypes
-## Tools: JavaScript, RenPy, Twine
-![Prototypes Cover Image](images/prototypecover.png)
-
-Assorted interactive prototypes that don't (yet!) make the cut as standalone portfolio pieces.
-
-[Read More](prototypes.html){: .button}
-
 # Vanishing Point
 ## Tools: Unity, C#, ShaderLab, Blender, Substance Designer
 ### Roles: Technical Artist & Environment Artist
@@ -47,3 +39,11 @@ Detective Pennelope Scout must solve a murder case in the mysterious, cult-like 
 You're Georgie, the diplomat of the Rat clan! Your job: find out who violated the Rat-Pigeon-Squirrel Weekly Garbage Treaty. The Pigeons claim their rightful share of garbage was stolen! Find the true Garbage Thief in this **choice-driven Twine game**.
 
 [Read More](garbageincident.html){: .button}
+
+# Assorted Prototypes
+## Tools: JavaScript, RenPy, Twine
+![Prototypes Cover Image](images/prototypecover.png)
+
+Assorted interactive prototypes that don't (yet!) make the cut as standalone portfolio pieces.
+
+[Read More](prototypes.html){: .button}

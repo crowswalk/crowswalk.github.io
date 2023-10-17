@@ -8,7 +8,12 @@
     {%- include header.html -%}
 
     <main class="page-content" aria-label="Content">
-        {% include image-gallery.html folder=page.directory %}
+        <div class="wrapper">
+            <div class="portfolio">
+                {{ content }}
+            </div>
+
+        </div>
     </main>
 
     {%- include footer.html -%}

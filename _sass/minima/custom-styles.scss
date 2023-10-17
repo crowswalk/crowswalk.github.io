@@ -96,6 +96,27 @@
         justify-content: center;
     }
     
+    .portfolio {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .portfolio p {
+        margin: $spacing-unit * .5;
+    }
+    
+    .artpage img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        object-position: top;
+        transform: scale(1);
+        transition: all 0.3s ease-in-out;
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+    
     @media screen and (min-width: $on-large) {
         .gridbox,
         .image-gallery {
@@ -108,37 +129,13 @@
         .image-gallery {
             column-count: 3;
         }
+        .portfolio {
+            grid-template-columns: 1fr 1fr;
+        }
     }
     
     .gridbox>p>img {
         margin-bottom: $spacing-unit * .5;
-    }
-    
-    #picmodal {
-        display: none;
-        position: fixed;
-        z-index: 10;
-        width: 100%;
-        height: 100%;
-        background-color: #2b2b2bcc;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    #focusedImg {
-        margin: auto;
-        width: 85%;
-        height: 85%;
-        object-fit: contain;
-    }
-    
-    #x {
-        display: none;
-        position: fixed;
-        top: 2rem;
-        right: 2rem;
-        width: 2rem;
-        z-index: 12;
     }
     /*! div style */
     
