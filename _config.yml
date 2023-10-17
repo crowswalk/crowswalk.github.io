@@ -31,7 +31,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 theme: minima
 
 plugins:
-  #  - jekyll-feed
+   - jekyll-feed
 
 minima:
 
