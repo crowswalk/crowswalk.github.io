@@ -27,7 +27,6 @@ author:
 description: >- # this means to ignore newlines until "baseurl:"
   This website’s code is locally grown by max. If there’s imperfections, that’s because it’s organic!
 
-
 # Build settings
 theme: minima
 
