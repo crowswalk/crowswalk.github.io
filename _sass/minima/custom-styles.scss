@@ -68,12 +68,17 @@
         color: $accent-color;
     }
     
+    .site-nav {
+        z-index: 100;
+    }
+    
     .site-nav .page-link {
         font-size: 1.5rem;
         font-family: 'Source Serif Pro', serif;
         font-weight: bold;
         margin: 0px 20px;
         padding: 2px;
+        z-index: 100;
         &:hover,
         &:active {
             color: $accent-color-light;
@@ -104,6 +109,18 @@
         &:active {
             background-color: $accent-color-light;
         }
+    }
+    
+    .game-page-cover {
+        display: flex;
+        column-gap: $spacing-unit * .4;
+        align-items: baseline;
+        flex-direction: column;
+        margin-bottom: $spacing-unit * .5;
+    }
+    
+    .game-page-cover img {
+        width: 100%;
     }
     
     //art portfolio page with subpages
@@ -155,6 +172,14 @@
     }
     
     @media screen and (min-width: $on-medium) {
+        .game-page-cover {
+            flex-direction: row;
+            align-items: center;
+        }
+        .game-page-cover img {
+            width: 45%;
+            height: fit-content;
+        }
         .image-gallery {
             column-count: 3;
         }

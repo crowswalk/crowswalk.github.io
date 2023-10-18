@@ -2,13 +2,10 @@
 layout: gallery-page
 title: Vanishing Point
 directory: /images/vanishingpoint/
+cover: /images/thumbnails/vanishingpoint_thumbnail.png
+tools: Unity, C#, ShaderLab, Blender, Substance Designer
+roles: Technical Artist & Environment Artist
 ---
-# Vanishing Point
-## Unity, C#, ShaderLab, Blender, Substance Designer
-### Technical Artist & Environment Artist
-
-![Vanishing Point Cover Image](images/thumbnails/vanishingpoint_thumbnail.png)
-
 The software developer Brent Watters disappeared a decade ago, leaving his twelve-year-old daughter Eloise without answers––apart from the name of his last project, Asphodel. 
 
 Explore the mysteries of their family computer in Vanishing Point, a **puzzle-platformer** from COVE. Guide the virtual assistant Echo through platforming puzzles that **blend 2D and 3D space**. Together, Eloise and Echo may finally learn the secret behind Brent’s disappearance.

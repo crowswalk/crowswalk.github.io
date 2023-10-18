@@ -9,7 +9,14 @@
 
     <main class="page-content" aria-label="Content">
         <div class="wrapper">
-            {{ content }} {% include image-gallery.html folder=page.directory %}
+            <div class="game-page-cover">
+                <img src="{{ page.cover }}">
+                <div>
+                    <h1>{{ page.title }}</h1>
+                    <h2>{{ page.tools }}</h2>
+                    <h3>{{ page.roles }}</h3>
+                </div>
+            </div>{{ content }}{% include image-gallery.html folder=page.directory %}
         </div>
     </main>
 
