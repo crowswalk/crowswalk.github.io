@@ -43,12 +43,19 @@
         margin: 0;
     }
     
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
     img {
         border-radius: 3px;
     }
     
     .bird {
-        width: 40%;
+        width: 200px;
+        padding: 16px;
         margin: auto;
     }
     
@@ -99,17 +106,7 @@
         }
     }
     
-    .gridbox,
-    .image-gallery {
-        line-height: 0.2rem;
-        box-sizing: border-box;
-        margin: 0;
-        margin-bottom: $spacing-unit;
-        column-gap: $spacing-unit * .5;
-        column-count: 1;
-        justify-content: center;
-    }
-    
+    //art portfolio page with subpages
     .portfolio {
         display: grid;
         grid-template-columns: 1fr;
@@ -139,51 +136,58 @@
         }
     }
     
+    .image-gallery {
+        // display: grid;
+        // line-height: 0.2rem;
+        box-sizing: border-box;
+        margin: 0;
+        margin-bottom: $spacing-unit * .1;
+        column-gap: $spacing-unit * .1;
+        column-count: 1;
+        justify-content: center;
+        text-align: center;
+    }
+    
     @media screen and (min-width: $on-large) {
-        .gridbox,
         .image-gallery {
             column-count: 3;
         }
     }
     
     @media screen and (min-width: $on-medium) {
-        .gridbox,
         .image-gallery {
-            column-count: 2;
+            column-count: 3;
         }
         .portfolio {
             grid-template-columns: 1fr 1fr;
         }
-    }
-    
-    .gridbox>p>img {
-        margin-bottom: $spacing-unit * .5;
+        .about {
+            flex-direction: row;
+        }
     }
     /*! div style */
     
-    // .image-gallery {
-    //     width: 100%;
-    //     display: grid;
-    //     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    //     justify-content: center;
-    //     padding: 4px;
-    // }
     // GALLERY
+    // .image-gallery {
+    //     display: flex;
+    //     line-height: 0.2rem;
+    //     box-sizing: border-box;
+    //     margin: 0;
+    //     margin-bottom: $spacing-unit;
+    //     column-gap: $spacing-unit * .5;
+    //     column-count: 1;
+    //     justify-content: center;
+    // }
     .box {
-        flex-basis: 25%;
+        // flex-basis: 100%;
         width: 100%;
-        padding: 10px;
+        // padding: 10px;
         // margin: 2px;
-    }
-    
-    .img-gallery {
-        // width: 100%;
-        // height: 200px;
-        // object-fit: cover;
-        transform: scale(1);
+        margin-bottom: $spacing-unit * .1;
+        transform: scale(0.98);
         transition: all 0.3s ease-in-out;
         &:hover {
-            transform: scale(1.05);
+            transform: scale(1.0);
         }
     }
     
