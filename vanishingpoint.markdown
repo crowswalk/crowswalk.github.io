@@ -4,7 +4,7 @@ title: Vanishing Point
 directory: /images/vanishingpoint/
 cover: /images/thumbnails/vanishingpoint_thumbnail.png
 tools: Unity, C#, ShaderLab, Blender, Substance Designer
-roles: Technical Artist & Environment Artist
+roles: Technical & Environment Artist
 ---
 The software developer Brent Watters disappeared a decade ago, leaving his twelve-year-old daughter Eloise without answers––apart from the name of his last project, Asphodel. 
 
