@@ -12,5 +12,5 @@ title: Art
 [![Tech Art](images/art/techart/3d_guyrender2.png)
 ](techart.html){: .artpage}{: title="Tech Art"}
 
-[![Pixel Art](images/art/pixel/pixel_categg.png)
-](pixel.html){: .artpage}{: title="Pixel Art"}
+[![Animations](images/other/crowanimation.png)
+](animations.html){: .artpage}{: title="Animations"}
