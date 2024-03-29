@@ -5,7 +5,7 @@ title: Games
 # [Signal Creek](signalcreek.html)
 ## Godot Mono, C#, GLSL, GDScript (Python-based)
 ### Producer, 2D & Technical Artist
-#### Team Size: 8
+### Team Size: 8
 [![Signal Creek Cover Image](images/thumbnails/signalcreek_thumbnail.png)](signalcreek.html){: .cover}
 
 A story-rich pixel art JRPG with elements of fantasy-realism, LGBTQ+ identities, vibrant choice-based dialogue
@@ -20,7 +20,7 @@ Guide the virtual assistant Echo through platforming puzzles that blend 2D and 3
 # [The Penne Dreadful Murder](pennedreadful.html)
 ## Unity, C#, YarnSpinner, Figma
 ### Producer, Technical & Background Artist, UI/UX Designer
-#### Team Size: 8
+### Team Size: 8
 [![Penne Dreadful Cover Image](images/thumbnails/penne_thumbnail.png)](pennedreadful.html){: .cover}
 
 A cute, creepy point-and-click murder mystery set in the cult-town of Timsville.
