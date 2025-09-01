@@ -3,8 +3,8 @@ layout: gallery-page
 title: Signal Creek
 directory: /images/signalcreek/
 cover: /images/thumbnails/signalcreek_thumbnail.png
-tools: Godot Mono, C#, GLSL, GDScript (Python-based)
-roles: Producer, 2D & Technical Artist
+tools: Godot with C# Integration
+roles: Indie Game Developer
 ---
 This game was created by a team of 8 developers.
 
