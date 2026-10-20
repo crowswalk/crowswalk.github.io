@@ -1,7 +1,7 @@
 ---
 layout: gallery
 title: Art
-directory: /images/art/illustrations
+directory: /images/art/illust
 ---
 
 <!--
